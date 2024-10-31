@@ -1,0 +1,44 @@
+/* copy/edit the CSS below and add to your stylesheet to customize the style for MyTwitter -- highly recommend editing it first because these colors are for example only and not well coordinated */
+
+/* To edit your stylesheet in WP, go to Presentation -> Theme Editor -> Stylesheet (applies to most themes)*/
+
+
+/* style for each tweet */ 
+.mytwitter_tweet {
+	color: #FFFFFF;
+}
+
+/* style for each tweet time (e.g. 3 hours ago)*/
+.mytwitter_tweet_time {
+	font-style: italic;
+}
+
+/* style for each separator */
+.mytwitter_separator {
+	color: red;
+}
+
+/* style for tweet #1 -- you can add additional styles by adding #mytwitter_tweet-2, etc. */
+
+#mytwitter_tweet-1 {
+	font-size: large;
+}
+
+
+/* style for tweet time #1 -- you can add additional styles by adding #mytwitter_tweet_time-2, etc. */
+
+#mytwitter_tweet_time-1 {
+	font-size: large;
+}
+
+/* style for separator #1 -- you can add additional styles by adding #mytwitter_separator-2, etc. */
+
+#mytwitter_separator-1 {
+	font-size: large;
+}
+
+/* set style for "li" element of class "mytwitter" */
+
+ul li.mytwitter {
+	color: green;
+}

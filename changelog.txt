@@ -1,0 +1,34 @@
+CHANGELOG:
+v. 3.0.3
+  -- verified compatibility with WordPress 2.9
+v. 3.0
+  -- rename to Elitwee MyTwitter, completely rewritten by Calvin Freitas
+	-- move MyTwitter to http://calvinf.com/projects/elitwee/mytwitter/
+	-- update for compatibility w/ WordPress 2.8.2 and newer
+	-- uses Elitwee 1.4 library from http://github.com/calvinf/elitwee for Twitter API calls and caching
+	-- updated widgets for WordPress 2.8, supports multiple Twitter widgets
+	-- support for Twitter avatars
+	-- Twitter status updating from plugin settings page now uses jQuery + AJAX
+v. 2.0  
+  -- uses Elitwee Core by Calvin Freitas to retrieve data from Twitter
+  -- transition to JSON backend instead of SimplePie
+  -- requires PHP 5.2 or newer
+v. 1.6
+  -- added CSS class to the widget and widget title, renamed the time_since() function to mytwitter_time_since(), 
+	-- verified compatibility w/ Wordpress 2.5
+v. 1.5
+	-- updated parsing for "@" replies (courtesy of @krokodilerian - http://vasil.ludost.net/blog/)
+	-- added additional formatting options including ability to style w/ CSS and change order of tweet/time
+	-- added mytwitter_mostrecent() function to display the most recent update (w/o formatting options) in the Options panel for MyTwitter
+v. 1.4
+	-- added cache life setting, default is set to 900 seconds (15 minutes)
+v. 1.3
+	-- changed version numbering to 1.x instead of 1.0x to match the numbering used at the Wordpress Plugin Database (http://wp-plugins.net/)
+	-- added the ability to post status updates from the Settings page for MyTwitter
+v. 1.02
+	-- incorporated Sascha's modifications for widget support
+v. 1.01
+	-- modified the time display code
+	-- updated the documentation
+v. 1.00
+	-- added a Settings panel
